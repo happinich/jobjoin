@@ -1,0 +1,15 @@
+{
+  "login": {
+    "username": ["input[autocomplete='username']", "input[name*='user' i]", "input[name*='email' i]", "input[id*='user' i]", "input[type='email']", "input[type='text']"],
+    "password": ["input[autocomplete='current-password']", "input[name*='pass' i]", "input[id*='pass' i]", "input[type='password']"],
+    "submit": ["button[type='submit']", "input[type='submit']", "button:has-text('로그인')", "button:has-text('Login')"]
+  },
+  "repost": {
+    "form": ["form", "main form", "section form"],
+    "sourceUrl": ["input[name*='url' i]", "input[id*='url' i]", "input[placeholder*='url' i]", "input[type='url']"],
+    "title": ["input[name*='title' i]", "input[id*='title' i]", "input[placeholder*='title' i]"],
+    "body": ["textarea[name*='body' i]", "textarea[name*='content' i]", "textarea", "[contenteditable='true']"],
+    "tags": ["input[name*='tag' i]", "input[id*='tag' i]", "input[placeholder*='tag' i]"],
+    "submit": ["button[type='submit']", "input[type='submit']", "button:has-text('등록')", "button:has-text('게시')", "button:has-text('Repost')"]
+  }
+}

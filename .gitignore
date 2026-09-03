@@ -1,0 +1,12 @@
+# 민감 정보 - 절대 커밋 금지
+.env
+state/
+logs/
+cron.log
+
+# 의존성/빌드
+node_modules/
+dist/
+
+# 시스템
+.DS_Store
